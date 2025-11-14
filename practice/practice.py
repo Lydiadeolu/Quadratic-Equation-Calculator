@@ -41,7 +41,7 @@ SyntaxError: multiple statements found while compiling a single statement
 >>> weight = 24
 >>> height = 14
 >>> body_mass = weight * height
->>> print ( body_mass)
+>>> print (body_mass)
 336
 >>> print (body_mass "is your body mass")
 SyntaxError: invalid syntax
@@ -83,26 +83,26 @@ Traceback (most recent call last):
 NameError: name 'word' is not defined
 =
 >>> word = 'OYELABI'
->>> word [2]
+>>> word[2]
 'E'
->>> word [4]
+>>> word[4]
 'A'
->>> word [0]
+>>> word[0]
 'O'
 >>> word[:2] + word[:2]
 'OYOY'
->>> word [-2]
+>>> word[-2]
 'B'
->>> wor [-4]
+>>> wor[-4]
 Traceback (most recent call last):
   File "<pyshell#43>", line 1, in <module>
-    wor [-4]
+    wor[-4]
 NameError: name 'wor' is not defined
->>> word [-4]
+>>> word[-4]
 'L'
->>> word [2:5]
+>>> word[2:5]
 'ELA'
->>> 'w' + word [1:]
+>>> 'w' + word[1:]
 'wYELABI'
 >>> 'the body masss calculated' + body_mass
 Traceback (most recent call last):

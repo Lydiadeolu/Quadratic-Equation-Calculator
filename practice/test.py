@@ -87,7 +87,7 @@ SyntaxError: invalid syntax
 >>> c = b[0:1] + a[2:]
 >>> print c
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(...)?
->>> print (c)
+>>> print(c)
 mimsy
 >>> s = HumptyDumptysatonawallHumptyDumptyhadagreatfallAlltheKingshorsesandalltheKingsmenCouldntputHumptyDumptyinhisplaceagain
 Traceback (most recent call last):
@@ -100,10 +100,10 @@ Traceback (most recent call last):
     s = [HumptyDumptysatonawallHumptyDumptyhadagreatfallAlltheKingshorsesandalltheKingsmenCouldntputHumptyDumptyinhisplaceagain]
 NameError: name 'HumptyDumptysatonawallHumptyDumptyhadagreatfallAlltheKingshorsesandalltheKingsmenCouldntputHumptyDumptyinhisplaceagain' is not defined
 
-print number_name [21]
+print number_name[21]
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(...)?
-print (number_name [21])
+print (number_name[21])
 Traceback (most recent call last):
   File "<pyshell#40>", line 1, in <module>
-    print (number_name [21])
+    print (number_name[21])
 NameError: name 'number_name' is not defined

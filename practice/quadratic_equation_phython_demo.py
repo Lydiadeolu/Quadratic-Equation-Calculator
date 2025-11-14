@@ -25,7 +25,7 @@ what is the value of c? 8
 >>> b = float(b)
 >>> c = float(c)
 >>> determinant = b ** 2 - 4 * a * c
->>> print (determinant)
+>>> print(determinant)
 -48.0
 >>> min_x = (-b - (determinant) ** (1 / 2)) /(2 * a)
 >>> max_x = (-b + (determinant) ** (1 / 2)) /(2 * a)

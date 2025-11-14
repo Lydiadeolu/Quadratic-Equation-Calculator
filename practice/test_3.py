@@ -45,29 +45,29 @@ b = 'miserable'
 c = b[0:1] + a[2:]
 print (c)
 mimsy
-b [0:3:]
+b[0:3:]
 'mis'
 s = 'HumptyDumptysatonawallHumptyDumptyhadagreatfallAlltheKingshorsesandalltheKingsmenCouldntputHumptyDumptyinhisplaceagain'
-s [22:27:]
+s[22:27:]
 'Humpt'
-s [97:102:]
+s[97:102:]
 'Dumpt'
 w = 'wF3GvJWvP231DAWc89AIA3NEQnw2417qVrsLaIWtbDZc6kiLHomalopsis5NDzN89Rsz81xsvYGOPYQ6V3INwI9np81dIeGR2YO3yjMNG4ggH4cQ4oJIjIZ8JmajormoU2E4x4t3P6HTncK1LXg2rI6tvezCDqLJBrqt2RlKz6wrxf19K'
-w [51:60:]
+w[51:60:]
 'alopsis5N'
-w [124:128:]
+w[124:128:]
 'ormo'
 F = 'cbEgEIAxSFqVgaMvJCJGKnlfdDXUxAmbystomakWdp8rPOHvOtrigonopodus4muZQ7idPARUAbrFE3uctuOEXP3h0bfJ02neU5tYT5AsuVn8FIQn2bLnU1DLtDNjMwA6N00SevuW4TmkMP8d3OqrbCaqSVHE3mx.'
-F [29:37]
+F[29:37]
 'Ambystom'
-F [49:60]
+F[49:60]
 'trigonopodu'
 a = 29
 b = 37
 c = 124
 d = 128
-print (s[a:b+1]),
-print (s[c:d+1]
+print(s[a:b+1]),
+print(s[c:d+1]
        
 SyntaxError: multiple statements found while compiling a single statement
 print s[a:b+1],; print s[c:d+1]
@@ -89,22 +89,22 @@ jMwA6
 Ambystoma
 jMwA6
 (None, None)
->>> print (F[a:b+1] end= ' ') print (F[c:d+1])
+>>> print(F[a:b+1] end= ' ') print (F[c:d+1])
 ...       
 SyntaxError: invalid syntax. Perhaps you forgot a comma?
->>> print (F[a:b+1] end= ' '), print (F[c:d+1])
+>>> print(F[a:b+1] end= ' '), print (F[c:d+1])
 ...       
 SyntaxError: invalid syntax. Perhaps you forgot a comma?
->>> print (F[a:b+1], end= ' ') print (F[c:d+1])
+>>> print(F[a:b+1], end= ' ') print (F[c:d+1])
 ...       
 SyntaxError: invalid syntax
->>> print (F[a:b+1], end= ' ') print (F[c:d+1])91(
+>>> print(F[a:b+1], end= ' ') print(F[c:d+1])91(
 ...       
 SyntaxError: invalid syntax
->>> print (F[a:b+1], end= ' ')
+>>> print(F[a:b+1], end= ' ')
 ...       
 Ambystoma 
->>> 0print (F[c:d+1])
+>>> print (F[c:d+1])
 ...       
 jMwA6
 >>> m = 'vDI4rM5RJm11rirB3UJKjWE8OO2aAllobatesXrEAJkKyY0lKVkBelaphusWYah6RdqaIHlSqRtB6BoUfkIdKSst7sNGr5GQfB7v1ZY0O0XY2DYuKcsIvea9fB6NqRubiW2GNvajUwJ6hwsidSXT7tPsY75iQRY.
