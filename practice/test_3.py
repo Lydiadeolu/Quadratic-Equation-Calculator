@@ -98,7 +98,7 @@ SyntaxError: invalid syntax. Perhaps you forgot a comma?
 >>> print (F[a:b+1], end= ' ') print (F[c:d+1])
 ...       
 SyntaxError: invalid syntax
->>> print (F[a:b+1], end= ' ') print (F[c:d+1])
+>>> print (F[a:b+1], end= ' ') print (F[c:d+1])91(
 ...       
 SyntaxError: invalid syntax
 >>> print (F[a:b+1], end= ' ')
@@ -118,3 +118,24 @@ SyntaxError: invalid syntax
 >>> m[28:36+1] + " " + m[52:58+1]
 ...       
 'Allobates elaphus'
+
+
+
+
+
+>>> print ('corrections')
+...
+    corrections
+>>> speed = 23
+>>> time = 120
+>>> velocity = speed * time
+>>> print(velocity)
+...
+    2760
+
+
+
+
+
+
+
