@@ -24,7 +24,10 @@ If the implementation is easy to explain, it may be a good idea.
 Namespaces are one honking great idea -- let's do more of those!
 a = 847
 b = 905
-c== a**2 + b**2
+c = a**2 + b**2
+c == a**2 + b**2
+print(c)
+   #print(c) to give the result of the calculation directly
 Traceback (most recent call last):
   File "<pyshell#3>", line 1, in <module>
     c== a**2 + b**2
@@ -66,8 +69,7 @@ a = 29
 b = 37
 c = 124
 d = 128
-print(s[a:b+1]),
-print(s[c:d+1]
+print(s[a:b+1]),:s[c:d+1])
        
 SyntaxError: multiple statements found while compiling a single statement
 print s[a:b+1],; print s[c:d+1]

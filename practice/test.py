@@ -22,13 +22,13 @@ Although never is often better than *right* now.
 If the implementation is hard to explain, it's a bad idea.
 If the implementation is easy to explain, it may be a good idea.
 Namespaces are one honking great idea -- let's do more of those!
-a = input ('what is the vlue of a')
+a = input('what is the vlue of a')
 
 what is the vlue of a 500
-b = input ('what is the value of b')
+b = input('what is the value of b')
 what is the value of b 600
-a = int (a)
-b = int (b)
+a = int(a)
+b = int(b)
 a**2
 250000
 b**2
@@ -37,7 +37,7 @@ a** + b**
 SyntaxError: invalid syntax
 a**2 + b**2
 610000
-print ('the value of the integer corresponding to the square of the hypotenuse', _)
+print('the value of the integer corresponding to the square of the hypotenuse', _)
 the value of the integer corresponding to the square of the hypotenuse 610000
 import this
 
@@ -89,21 +89,23 @@ SyntaxError: invalid syntax
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(...)?
 >>> print(c)
 mimsy
->>> s = HumptyDumptysatonawallHumptyDumptyhadagreatfallAlltheKingshorsesandalltheKingsmenCouldntputHumptyDumptyinhisplaceagain
+>>> s = 'HumptyDumptysatonawallHumptyDumptyhadagreatfallAlltheKingshorsesandalltheKingsmenCouldntputHumptyDumptyinhisplaceagain'
+# ''was missing
 Traceback (most recent call last):
   File "<pyshell#36>", line 1, in <module>
     s = HumptyDumptysatonawallHumptyDumptyhadagreatfallAlltheKingshorsesandalltheKingsmenCouldntputHumptyDumptyinhisplaceagain
 NameError: name 'HumptyDumptysatonawallHumptyDumptyhadagreatfallAlltheKingshorsesandalltheKingsmenCouldntputHumptyDumptyinhisplaceagain' is not defined
-s = [HumptyDumptysatonawallHumptyDumptyhadagreatfallAlltheKingshorsesandalltheKingsmenCouldntputHumptyDumptyinhisplaceagain]
+s = 'HumptyDumptysatonawallHumptyDumptyhadagreatfallAlltheKingshorsesandalltheKingsmenCouldntputHumptyDumptyinhisplaceagain'
+# '' was missing
 Traceback (most recent call last):
   File "<pyshell#37>", line 1, in <module>
     s = [HumptyDumptysatonawallHumptyDumptyhadagreatfallAlltheKingshorsesandalltheKingsmenCouldntputHumptyDumptyinhisplaceagain]
 NameError: name 'HumptyDumptysatonawallHumptyDumptyhadagreatfallAlltheKingshorsesandalltheKingsmenCouldntputHumptyDumptyinhisplaceagain' is not defined
-
+number_name = 'HumptyDumptysatonawallHumptyDumptyhadagreatfallAlltheKingshorsesandalltheKingsmenCouldntputHumptyDumptyinhisplaceagain'
 print number_name[21]
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(...)?
-print (number_name[21])
+print number_name[21])
 Traceback (most recent call last):
   File "<pyshell#40>", line 1, in <module>
-    print (number_name[21])
+    print(number_name[21])
 NameError: name 'number_name' is not defined
