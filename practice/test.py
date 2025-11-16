@@ -105,6 +105,7 @@ number_name = 'HumptyDumptysatonawallHumptyDumptyhadagreatfallAlltheKingshorsesa
 print number_name[21]
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(...)?
 print number_name[21])
+# number_name was not created
 Traceback (most recent call last):
   File "<pyshell#40>", line 1, in <module>
     print(number_name[21])

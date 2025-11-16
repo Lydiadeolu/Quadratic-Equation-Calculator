@@ -4,4 +4,3 @@ Enter "help" below or click "Help" above for more information.
 >>> Weight = input('what is your weight in kilogram')
 >>> height = input('what is your hieght in meter square')
 >>> BMI = Weight * height
- 

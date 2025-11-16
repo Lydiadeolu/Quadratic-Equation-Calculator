@@ -33,3 +33,4 @@ what is the value of c? 8
 SyntaxError: invalid syntax
 >>> print(f"The lesser x is equal to {min_x} and the greater x is qual to {max_x}")
 The lesser x is equal to (-1-1.7320508075688772j) and the greater x is qual to (-0.9999999999999999+1.7320508075688772j)
+>>>
