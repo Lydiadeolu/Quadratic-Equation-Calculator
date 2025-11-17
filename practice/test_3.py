@@ -30,7 +30,7 @@ print(c)
    #print(c) to give the result of the calculation directly
 Traceback (most recent call last):
   File "<pyshell#3>", line 1, in <module>
-    c== a**2 + b**2
+    c == a**2 + b**2
 NameError: name 'c' is not defined
 a**2 + b**2
 1536434
@@ -81,23 +81,23 @@ SyntaxError: invalid syntax
 print f[a:b+1],; print f[c:d+1]
       
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(...)?
->>> print (F[a:b+1]),; print (F[c:d+1])
+>>> print(F[a:b+1]),; print(F[c:d+1])
 ...       
 Ambystoma
 (None,)
 jMwA6
->>> print (F[a:b+1]), print (F[c:d+1])
+>>> print(F[a:b+1]), print(F[c:d+1])
 ...       
 Ambystoma
 jMwA6
 (None, None)
->>> print(F[a:b+1] end= ' ') print (F[c:d+1])
+>>> print(F[a:b+1] end= ' ') print(F[c:d+1])
 ...       
 SyntaxError: invalid syntax. Perhaps you forgot a comma?
->>> print(F[a:b+1] end= ' '), print (F[c:d+1])
+>>> print(F[a:b+1] end= ' '), print(F[c:d+1])
 ...       
 SyntaxError: invalid syntax. Perhaps you forgot a comma?
->>> print(F[a:b+1], end= ' ') print (F[c:d+1])
+>>> print(F[a:b+1], end= ' ') print(F[c:d+1])
 ...       
 SyntaxError: invalid syntax
 >>> print(F[a:b+1], end= ' ') print(F[c:d+1])91(
@@ -106,7 +106,7 @@ SyntaxError: invalid syntax
 >>> print(F[a:b+1], end= ' ')
 ...       
 Ambystoma 
->>> print (F[c:d+1])
+>>> print(F[c:d+1])
 ...       
 jMwA6
 >>> m = 'vDI4rM5RJm11rirB3UJKjWE8OO2aAllobatesXrEAJkKyY0lKVkBelaphusWYah6RdqaIHlSqRtB6BoUfkIdKSst7sNGr5GQfB7v1ZY0O0XY2DYuKcsIvea9fB6NqRubiW2GNvajUwJ6hwsidSXT7tPsY75iQRY.
@@ -125,7 +125,7 @@ SyntaxError: invalid syntax
 
 
 
->>> print ('corrections')
+>>> print('corrections')
 ...
     corrections
 >>> speed = 23
