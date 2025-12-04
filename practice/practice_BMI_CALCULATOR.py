@@ -1,6 +1,6 @@
-Python 3.14.0 (tags/v3.14.0:ebf955d, Oct  7 2025, 10:15:03) [MSC v.1944 64 bit (AMD64)] on win32
-Enter "help" below or click "Help" above for more information.
->>> print ('BMI CALCULATOR')
-... ... Weight = input('what is your weight in kilogram')
-... ... height = input('what is your hieght in meter square')
-... ... BMI = Weight * height
+print ('BMI CALCULATOR')
+weight = int(input('what is your weight in kilogram '))
+height = int(input('what is your hieght in meter square '))
+
+BMI = weight * height
+print("the body mass index(BMI) is ",BMI)
